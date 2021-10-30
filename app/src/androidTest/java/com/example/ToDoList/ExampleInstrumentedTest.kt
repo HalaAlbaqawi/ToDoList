@@ -1,4 +1,4 @@
-package com.example.todolist
+package com.example.ToDoList
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
