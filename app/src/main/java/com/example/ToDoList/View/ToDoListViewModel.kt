@@ -11,7 +11,7 @@ class ToDoListViewModel : ViewModel(){
 
     private val todolistRepository = ToDoListRepository.get()
 
-    var gettodo = todolistRepository.getItems()
+   var gettodo  = todolistRepository.getItems()
 
     var selectedItemmutableLiveData = MutableLiveData<ToDoModel>()
 

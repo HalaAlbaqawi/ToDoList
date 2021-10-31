@@ -47,7 +47,7 @@ class Add_Fragment : Fragment() {
             findNavController().popBackStack()
         }
 
-        val datePicker = DatePickerDialog(requireActivity())
+        val datePicker = DatePickerDialog(requireActivity(), R.style.DialogTheme)
         datePicker.setTitle("Deadline")
 
         datePicker.setButton(DialogInterface.BUTTON_POSITIVE, "Ok") { d, i ->

@@ -19,6 +19,7 @@ class ToDoListRepository (context: Context) {
 
 
         private val todoDao = database.todoDao()
+
     fun getItems() = todoDao.getItems()
     suspend fun addItem (todoModel:ToDoModel) = todoDao.addItem(todoModel)
     suspend fun updateItem(todoModel:ToDoModel)= todoDao.updateItem(todoModel)
@@ -33,7 +34,7 @@ class ToDoListRepository (context: Context) {
                 instance = ToDoListRepository(context)
         }
         fun get(): ToDoListRepository {
-            return instance ?: throw Exception ("")
+            return instance ?: throw Exception ("Repository must be initialized")
         }
     }
 }
