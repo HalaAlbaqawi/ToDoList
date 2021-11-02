@@ -16,7 +16,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 class List_Fragment : Fragment() {
 
     private val toDoList = mutableListOf<ToDoModel>()
-  private lateinit var adapter: ToDoAdapter
+    private lateinit var adapter: ToDoAdapter
 
     private val toDoListViewModel: ToDoListViewModel by activityViewModels()
 
@@ -91,9 +91,13 @@ class List_Fragment : Fragment() {
               item.isChecked = !item.isChecked
 
               toDoListViewModel.getHideCompletedTasks(item.isChecked).observe(viewLifecycleOwner ,{
-                  toDoList.clear()
-                  toDoList.addAll(it)
-                  adapter.notifyDataSetChanged()
+                  if(item.isChecked) {
+                      toDoList.clear()
+                      toDoList.addAll(it)
+                      adapter.notifyDataSetChanged()
+                  }else {
+                      fetchDate("")
+                  }
               })
               true
           }

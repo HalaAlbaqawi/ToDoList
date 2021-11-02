@@ -13,22 +13,13 @@ import kotlinx.coroutines.launch
 
 class ToDoListViewModel : ViewModel(){
 
+    // Getting instance from To Do List repository with companion object function
     private val todolistRepository = ToDoListRepository.get()
 
     val searchQuery = todolistRepository.searchQuery
     val sortOrder = MutableStateFlow(SortOrder.BY_DATE)
     val hideCompleted = MutableStateFlow(false)
-//    private val tasksFlow = combine(
-//        searchQuery,
-//        sortOrder,
-//        hideCompleted
-//    ) { query, sortOrder ,hideCompleted ->
-//        Triple(query, sortOrder ,hideCompleted)
-//
-//    }.flatMapLatest {(query, sortOrder ,hideCompleted) ->
-//        todolistRepository.getTasks(query, sortOrder ,hideCompleted)
-//    }
-//    fun getSearchItemsWithFlow(searchQuery: String) = todolistRepository.getSearchItemsWithFlow(searchQuery)
+
 
     fun getSearchItems(query: String) = todolistRepository.getSearchItems(query)
 

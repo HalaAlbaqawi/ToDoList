@@ -37,8 +37,8 @@ class Add_Fragment : Fragment() {
         val deadlineEditText: EditText = view.findViewById(R.id.deadline_edittext)
         val addButton: Button = view.findViewById(R.id.add_button)
 
-
-        val sdf = SimpleDateFormat("yyyy/MM/dd")
+        // Creation Date fun
+        val sdf = SimpleDateFormat("dd/MM/yyyy")
         val currentDate = sdf.format(Date())
 
         addButton.setOnClickListener {
@@ -56,7 +56,7 @@ class Add_Fragment : Fragment() {
             val month = datePicker.datePicker.month
             val year = datePicker.datePicker.year
 
-            deadlineEditText.setText("$year/${month+1}/$day")
+            deadlineEditText.setText("$day/${month+1}/$year")
         }
 
         deadlineEditText.setOnClickListener {

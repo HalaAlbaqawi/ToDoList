@@ -28,10 +28,6 @@ class ToDoListRepository (context: Context) {
 
         val searchQuery = MutableStateFlow("")
 
-//    private val tasksFlow = searchQuery.flatMapLatest {
-//        todoDao.getItems(it)
-//
-//    }
 
 
     fun getItems(isHide: Boolean) = todoDao.getHideCompletedTasks(isHide)
@@ -39,15 +35,7 @@ class ToDoListRepository (context: Context) {
     suspend fun addItem (todoModel:ToDoModel) = todoDao.addItem(todoModel)
     suspend fun updateItem(todoModel:ToDoModel)= todoDao.updateItem(todoModel)
     suspend fun deleteItem (todoModel:ToDoModel)= todoDao.deleteItem(todoModel)
-//    fun getSearchItemsWithFlowSortedByName(searchQuery: String,hideCompleted: Boolean ) = todoDao.getSearchItemsWithFlowSortedByName(searchQuery,hideCompleted)
-//    fun getSearchItemsWithFlowSortedByDate(searchQuery: String,hideCompleted: Boolean ) = todoDao.getSearchItemsWithFlowSortedByDate(searchQuery,hideCompleted)
-//    fun getTasks (query: String, sortOrder: SortOrder, hideCompleted: Boolean): Flow<List<ToDoModel>>
-//            =
-//        when(sortOrder){
-//            SortOrder.BY_DATE -> getSearchItemsWithFlowSortedByDate(query, hideCompleted)
-//            SortOrder.BY_NAME -> getSearchItemsWithFlowSortedByName(query, hideCompleted)
-//
-//        }
+
 
     suspend fun deleteCompletedTask() = todoDao.deleteCompletedTask()
 
