@@ -1,7 +1,8 @@
-package com.example.ToDoList
+package com.example.ToDoList.Activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.ToDoList.R
 import com.example.ToDoList.Repositories.ToDoListRepository
 
 class MainActivity : AppCompatActivity() {

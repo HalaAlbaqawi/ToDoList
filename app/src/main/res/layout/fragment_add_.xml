@@ -30,6 +30,7 @@
             android:background="@drawable/edittext_shape"
             android:backgroundTint="#EDDAE0"
             android:ems="10"
+
             android:gravity="top"
             android:hint="Title"
             android:inputType="textPersonName"
@@ -46,8 +47,10 @@
             android:background="@drawable/edittext_shape"
             android:backgroundTint="#EDDAE0"
             android:ems="10"
+            android:gravity="top"
             android:hint="Details"
-            android:inputType="textPersonName"
+            android:inputType="textMultiLine|textPersonName"
+            android:maxLines="20"
             android:padding="20dp" />
 
         <EditText
