@@ -7,7 +7,7 @@ Figma
 ## 2- Link to wirefarmes and user Stories:
  Wireframes:
  
-https://www.figma.com/file/2XXWFRvXQepcdUS7RJok91/Untitled?node-id=0%3A1
+[Figma](https://www.figma.com/file/2XXWFRvXQepcdUS7RJok91/Untitled?node-id=0%3A1)
 
 User Stories: 
 
