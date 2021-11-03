@@ -29,12 +29,12 @@ As a user I want to be able to Edit my tasks so that I can make changes in case 
 
 <hr>
 
-My Development Process:
+## 3- My Development Process:
 
 <hr>
 
-Unsolved problems:
+## 4- Unsolved problems:
 
 <hr>
 
-Favorite Functions:
+## 5- Favorite Functions:
