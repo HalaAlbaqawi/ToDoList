@@ -5,27 +5,27 @@ Android Studio
 
 Figma
 ## 2- Link to wirefarmes and user Stories:
- Wireframes:
+ **Wireframes**:
  
 [Figma](https://www.figma.com/file/2XXWFRvXQepcdUS7RJok91/Untitled?node-id=0%3A1)
 
-User Stories: 
+**User Stories**: 
 
-As a user I want to have an application that holds my tasks so that its reminds me of them 
+* As a user I want to have an application that holds my tasks so that its reminds me of them 
 
-As a user I want to check if I have done my list or not so that I can keep my tasks on check 
+* As a user I want to check if I have done my list or not so that I can keep my tasks on check 
 
-As a user I want to Add my tasks by clicking my  Action floating button so that I can put it in my add screen 
+* As a user I want to Add my tasks by clicking my  Action floating button so that I can put it in my add screen 
 
-As a user I want to be able to add a title for my tasks so that I can recognize my tasks by looking at the title.
+* As a user I want to be able to add a title for my tasks so that I can recognize my tasks by looking at the title.
 
-As a user I want to be able to add a deadline for my tasks so that I can manage my tasks by its deadline.
+* As a user I want to be able to add a deadline for my tasks so that I can manage my tasks by its deadline.
 
-As a user I want to be able to add a done checkbox for my tasks so that I can click on the done box whenever I'm done.
+* As a user I want to be able to add a done checkbox for my tasks so that I can click on the done box whenever I'm done.
 
-As a user I want to be able to Delete my tasks so that I can delete them whenever I'm done.
+* As a user I want to be able to Delete my tasks so that I can delete them whenever I'm done.
 
-As a user I want to be able to Edit my tasks so that I can make changes in case I need too. 
+* As a user I want to be able to Edit my tasks so that I can make changes in case I need too. 
 
 <hr>
 
