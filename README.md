@@ -36,13 +36,16 @@ Figma
   
   3- after deciding how my app is gonna look like, I started to define the Specifications required for my app. 
 
-* Design : I used figma to Design my app as a sketch.
+* Design :
+ I used figma to Design my app as a sketch.
 
 * Develop :
+
  1- I transformed my sketch into a design in Android Studio
 
- 2- I started to writting my code and my Functions.
+              2- I started to writting my code and my Functions.
 * Test :
+
 I started to testing my app by using developer Tools.
 
 
