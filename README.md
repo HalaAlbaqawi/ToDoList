@@ -80,23 +80,10 @@ Also it makes my app looks so much better because when want to see what you've d
 
 ## 6- Application :
 
-
  [<img src="https://github.com/HalaAlbaqawi/ToDoList/blob/9a510db346af9c8c1a87454822f64f78a017bc88/Splash%20Activity.jpg" width="250"/>](image.png)
- 
- 
  [<img src="https://github.com/HalaAlbaqawi/ToDoList/blob/077e2b90b1bc78e246c0f9fb1f2b0ab118711d57/Add%20fragment.jpg" width="250"/>](image.png)
- 
- 
  [<img src="https://github.com/HalaAlbaqawi/ToDoList/blob/077e2b90b1bc78e246c0f9fb1f2b0ab118711d57/Details%20fragment.jpg" width="250"/>](image.png)
- 
- 
  [<img src="https://github.com/HalaAlbaqawi/ToDoList/blob/077e2b90b1bc78e246c0f9fb1f2b0ab118711d57/20211103_153958.jpg" width="250"/>](image.png)
- 
- 
- [<img src="https://github.com/HalaAlbaqawi/ToDoList/blob/077e2b90b1bc78e246c0f9fb1f2b0ab118711d57/20211103_154458.jpg"/>](image.png)
- 
-
-[<img src="https://github.com/HalaAlbaqawi/ToDoList/blob/077e2b90b1bc78e246c0f9fb1f2b0ab118711d57/Screenshot_20211103-134238_ToDoList.jpg"/>](image.png)
-
-
-[<img src="https://github.com/HalaAlbaqawi/ToDoList/blob/077e2b90b1bc78e246c0f9fb1f2b0ab118711d57/Screenshot_20211103-154406_ToDoList.jpg"/>](image.png)
+ [<img src="https://github.com/HalaAlbaqawi/ToDoList/blob/077e2b90b1bc78e246c0f9fb1f2b0ab118711d57/20211103_154458.jpg" width="250"/>](image.png)
+ [<img src="https://github.com/HalaAlbaqawi/ToDoList/blob/077e2b90b1bc78e246c0f9fb1f2b0ab118711d57/Screenshot_20211103-134238_ToDoList.jpg" width="250"/>](image.png)
+ [<img src="https://github.com/HalaAlbaqawi/ToDoList/blob/077e2b90b1bc78e246c0f9fb1f2b0ab118711d57/Screenshot_20211103-154406_ToDoList.jpg" width="250"/>](image.png)
