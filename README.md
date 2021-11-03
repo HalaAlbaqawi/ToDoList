@@ -58,11 +58,13 @@ I started to testing my app by using developer Tools.
 
 ## 4- Unsolved problems:
 
-
+I tried to use FLOW data instead of Live data for my query functions and I found it really hard to understand by myself when I was searching. 
 
 
 <hr>
 
 ## 5- Favorite Functions:
 
+My favorite function is HideCompleted fun cause when I was working on it, it was interesting and little bit hard
 
+Also it makes my app looks so much better because when want to see what you've done on your tasks you only need to click on your donebox and then click on hide completed tasks and it will disappear.
