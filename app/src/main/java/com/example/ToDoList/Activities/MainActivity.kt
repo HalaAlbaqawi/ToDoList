@@ -10,6 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+     // initialization of the repository
+
         ToDoListRepository.init(this)
     }
 }

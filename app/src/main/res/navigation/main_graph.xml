@@ -12,10 +12,14 @@
         tools:layout="@layout/fragment_list_" >
         <action
             android:id="@+id/action_list_Fragment_to_add_Fragment"
-            app:destination="@id/add_Fragment" />
+            app:destination="@id/add_Fragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
         <action
             android:id="@+id/action_list_Fragment_to_details_Fragment"
-            app:destination="@id/details_Fragment" />
+            app:destination="@id/details_Fragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popEnterAnim="@anim/nav_default_enter_anim" />
     </fragment>
     <fragment
         android:id="@+id/add_Fragment"
@@ -26,4 +30,9 @@
         android:id="@+id/details_Fragment"
         android:name="com.example.ToDoList.View.Details_Fragment"
         android:label="Details_Fragment" />
+    <activity
+        android:id="@+id/splashActivity"
+        android:name="com.example.ToDoList.Activities.SplashActivity"
+        android:label="activity_splash"
+        tools:layout="@layout/activity_splash" />
 </navigation>

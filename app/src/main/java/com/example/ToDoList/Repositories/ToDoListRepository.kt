@@ -6,7 +6,6 @@ import androidx.room.Query
 import androidx.room.Room
 import com.example.ToDoList.DataBase.ToDoDatabase
 import com.example.ToDoList.Model.ToDoModel
-import com.example.ToDoList.View.SortOrder
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.flatMapLatest
@@ -26,10 +25,8 @@ class ToDoListRepository (context: Context) {
 
         private val todoDao = database.todoDao()
 
-        val searchQuery = MutableStateFlow("")
 
-
-
+// calling the functions from the dao
     fun getItems(isHide: Boolean) = todoDao.getHideCompletedTasks(isHide)
     fun getSearchItems(query: String) = todoDao.getSearchItems(query)
     suspend fun addItem (todoModel:ToDoModel) = todoDao.addItem(todoModel)
@@ -38,7 +35,7 @@ class ToDoListRepository (context: Context) {
 
 
     suspend fun deleteCompletedTask() = todoDao.deleteCompletedTask()
-
+ // we use the companion object for ini
     companion object {
 
         private var instance: ToDoListRepository? = null

@@ -16,9 +16,6 @@ class ToDoListViewModel : ViewModel(){
     // Getting instance from To Do List repository with companion object function
     private val todolistRepository = ToDoListRepository.get()
 
-    val searchQuery = todolistRepository.searchQuery
-    val sortOrder = MutableStateFlow(SortOrder.BY_DATE)
-    val hideCompleted = MutableStateFlow(false)
 
 
     fun getSearchItems(query: String) = todolistRepository.getSearchItems(query)
@@ -40,12 +37,9 @@ class ToDoListViewModel : ViewModel(){
         }
 
     }
+    // calling the function from dao
     fun deleteCompletedTask() = viewModelScope.launch { todolistRepository.deleteCompletedTask() }
 
     fun getHideCompletedTasks(isHide: Boolean) = todolistRepository.getItems(isHide)
 
-}
-
-
-enum class SortOrder{ BY_NAME, BY_DATE
 }

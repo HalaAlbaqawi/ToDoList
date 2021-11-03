@@ -31,13 +31,13 @@ class Add_Fragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
+       // declaring the views from the Add fragment XML
         val titleEditText: EditText = view.findViewById(R.id.title_edittext)
         val detailsEditText: EditText = view.findViewById(R.id.details_edittext)
         val deadlineEditText: EditText = view.findViewById(R.id.deadline_edittext)
         val addButton: Button = view.findViewById(R.id.add_button)
 
-        // Creation Date fun
+        // Creation Date class to appear on every to do list that we created
         val sdf = SimpleDateFormat("dd/MM/yyyy")
         val currentDate = sdf.format(Date())
 
@@ -46,7 +46,8 @@ class Add_Fragment : Fragment() {
 
             findNavController().popBackStack()
         }
-
+       //  added the date picker dialog so that we can put our dead line by clicking on the date picker
+        // easily without forcing the user to write it
         val datePicker = DatePickerDialog(requireActivity(), R.style.DialogTheme)
         datePicker.setTitle("Deadline")
 
@@ -64,6 +65,7 @@ class Add_Fragment : Fragment() {
             datePicker.show()
 
         }
+    // set on click for the add button to make actions on it
     addButton.setOnClickListener {
 
     val title = titleEditText.text.toString()

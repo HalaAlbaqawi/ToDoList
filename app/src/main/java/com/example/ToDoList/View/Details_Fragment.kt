@@ -49,7 +49,7 @@ private lateinit var selectedView: ToDoModel
             toDoListViewModel.deleteItem(selectedView)
             findNavController().popBackStack()
         }
-
+ // putting this function ensure that the users will select a valid date.
         val datePicker = DatePickerDialog(requireActivity(), R.style.DialogTheme)
         datePicker.setTitle("Deadline")
 
@@ -67,7 +67,7 @@ private lateinit var selectedView: ToDoModel
             datePicker.show()
 
         }
-
+        //
         updateButton.setOnClickListener {
         selectedView.title = titleEditText.text.toString()
         selectedView.details = detailsEditText.text.toString()

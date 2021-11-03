@@ -20,7 +20,7 @@ import java.util.*
 class ToDoAdapter (val todolist: List<ToDoModel>, val todolistViewModel: ToDoListViewModel): RecyclerView
 .Adapter<ToDoAdapter.ToDoViewHolder> () {
 
-
+// declaring the views from the item layout XML
     class ToDoViewHolder (view: View): RecyclerView.ViewHolder(view){
 
         val titleTextView: TextView = view.findViewById(R.id.title_textView)
@@ -41,20 +41,26 @@ class ToDoAdapter (val todolist: List<ToDoModel>, val todolistViewModel: ToDoLis
     override fun onBindViewHolder(holder: ToDoAdapter.ToDoViewHolder, position: Int) {
         val todo = todolist[position]
 
-
+// connecting the data with its view
         holder.titleTextView.text = todo.title
         holder.deadlineTextView.text = todo.deadline
         holder.doneCheckBox.isChecked = todo.doneCheckBox
         holder.creationDate.text = "created in: ${todo.creationDate}"
 
+        Log.d("Adapter", todo.doneCheckBox.toString())
+        Log.d("Adapter", todo.toString())
         if (todo.doneCheckBox){
             holder.titleTextView.paintFlags = Paint.STRIKE_THRU_TEXT_FLAG
             holder.deadlineTextView.paintFlags = Paint.STRIKE_THRU_TEXT_FLAG
+        }else
+        {
+            holder.titleTextView.paintFlags = 0
+            holder.deadlineTextView.paintFlags = 0
         }
 
         holder.doneCheckBox.setOnClickListener {
 
-     // if you done the task you can make it done by checking the box
+     // if you are done with the tasks you can make it done by checking the box
         if (holder.doneCheckBox.isChecked){
             holder.titleTextView.paintFlags = Paint.STRIKE_THRU_TEXT_FLAG
             holder.deadlineTextView.paintFlags = Paint.STRIKE_THRU_TEXT_FLAG
@@ -67,7 +73,7 @@ class ToDoAdapter (val todolist: List<ToDoModel>, val todolistViewModel: ToDoLis
             todolistViewModel.updateItem(todo)
         }
 
-        // indicator
+        // indicator for the list
         var currentDate = Date()
         val format= SimpleDateFormat("d/MM/yyyy")
         val dueDate = format.parse(todo.deadline)
