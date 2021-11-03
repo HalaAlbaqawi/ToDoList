@@ -2,7 +2,9 @@
 # Capstone Project 1 - Tuwaiq Academy
 
 ## Description : 
+It is a list of tasks you need to complete, or things that you want to do. 
 
+A to do list app let's you orgnize your tasks more, also it let you attach notes, links and many things, so a good app is the ultimate productivity app.
 
 
 
