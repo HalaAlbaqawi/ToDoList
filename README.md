@@ -58,6 +58,11 @@ I started to testing my app by using developer Tools.
 
 ## 4- Unsolved problems:
 
+
+
+
 <hr>
 
 ## 5- Favorite Functions:
+
+
