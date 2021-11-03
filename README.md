@@ -1,5 +1,11 @@
 ![Alt Text](https://camo.githubusercontent.com/37ca472e2afb74974a0314d89af8f470422a79582bed0d188f9927777230195d/68747470733a2f2f6c61756e63682e73612f6173736574732f696d616765732f6c6f676f732f7475776169712d61636164656d792d6c6f676f2e737667)
 # Capstone Project 1 - Tuwaiq Academy
+
+## Description: 
+
+
+
+
 ## 1- List of technologies:
 Android Studio
 
@@ -72,7 +78,8 @@ My favorite function is HideCompleted fun cause when I was working on it, it was
 Also it makes my app looks so much better because when want to see what you've done on your tasks you only need to click on your donebox and then click on hide completed tasks and it will disappear.
 
 
-![Alt Text](https://github.com/HalaAlbaqawi/ToDoList/blob/9a510db346af9c8c1a87454822f64f78a017bc88/Splash%20Activity.jpg)
+## 6- Application :
 
- 
+
+ [<img src="https://github.com/HalaAlbaqawi/ToDoList/blob/9a510db346af9c8c1a87454822f64f78a017bc88/Splash%20Activity.jpg" width="250"/>](image.png)
  
