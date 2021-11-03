@@ -17,10 +17,18 @@ As a user I want to check if I have done my list or not so that I can keep my ta
 
 As a user I want to Add my tasks by clicking my  Action floating button so that I can put it in my add screen 
 
+As a user I want to be able to add a title for my tasks so that I can recognize my tasks by looking at the title.
 
+As a user I want to be able to add a deadline for my tasks so that I can manage my tasks by its deadline.
 
+As a user I want to be able to add a done checkbox for my tasks so that I can click on the done box whenever I'm done.
 
+As a user I want to be able to Delete my tasks so that I can delete them whenever I'm done.
 
+As a user I want to be able to Edit my tasks so that I can make changes in case I need too. 
 
+My Development Process:
 
+Unsolved problems:
 
+Favorite Functions:
