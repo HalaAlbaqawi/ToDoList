@@ -72,7 +72,7 @@ My favorite function is HideCompleted fun cause when I was working on it, it was
 Also it makes my app looks so much better because when want to see what you've done on your tasks you only need to click on your donebox and then click on hide completed tasks and it will disappear.
 
 
-![Alt Text] (https://github.com/HalaAlbaqawi/ToDoList/blob/9a510db346af9c8c1a87454822f64f78a017bc88/Splash%20Activity.jpg)
+![Alt Text](https://github.com/HalaAlbaqawi/ToDoList/blob/9a510db346af9c8c1a87454822f64f78a017bc88/Splash%20Activity.jpg)
 
  
  
