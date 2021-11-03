@@ -27,8 +27,14 @@ As a user I want to be able to Delete my tasks so that I can delete them wheneve
 
 As a user I want to be able to Edit my tasks so that I can make changes in case I need too. 
 
+<hr>
+
 My Development Process:
 
+<hr>
+
 Unsolved problems:
+
+<hr>
 
 Favorite Functions:
