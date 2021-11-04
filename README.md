@@ -42,11 +42,11 @@ Room Data Base
 ## 3- My Development Process:
 **Planning** : 
 
-  1-  Planning my app by doing a brainstorm for the ideas that I want in my app.
+  *  Planning my app by doing a brainstorm for the ideas that I want in my app.
 
-  2- then I started to do my sketch on figma.
+  *  then I started to do my sketch on figma.
   
-  3- after deciding how my app is gonna look like, I started to define the Specifications required for my app. 
+  *  after deciding how my app is gonna look like, I started to define the Specifications required for my app. 
   
 
 **Designing** :
@@ -55,19 +55,19 @@ Room Data Base
 
 **Developing** :
 
- 1- I transformed my sketch into a design in Android Studio
+  * I transformed my sketch into a design in Android Studio
 
-  2- I started to writting my code and my Functions.
+  * I started to writting my code and my Functions.
   
 **Testing** :
 
 
 I started to testing my app by using developer Tools such as:
 
-**Debugging the code
+* Debugging the code
 
 
-**Searching
+* Searching
 
 
 
