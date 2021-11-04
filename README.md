@@ -64,10 +64,10 @@ Room Data Base
 
 I started to testing my app by using developer Tools such as:
 
-*Debugging the code
+**Debugging the code
 
 
-*Searching
+**Searching
 
 
 
