@@ -9,11 +9,11 @@ A to do list app let's you orgnize your tasks more, also it let you attach notes
 
 
 ## 1- List of technologies:
-Android Studio
+* Android Studio
 
-Figma
+* Figma
 
-Room Data Base 
+* Room Data Base 
 ## 2- Link to wirefarmes and user Stories:
  **Wireframes**:
  
