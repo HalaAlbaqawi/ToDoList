@@ -1,8 +1,10 @@
 ![Alt Text](https://camo.githubusercontent.com/37ca472e2afb74974a0314d89af8f470422a79582bed0d188f9927777230195d/68747470733a2f2f6c61756e63682e73612f6173736574732f696d616765732f6c6f676f732f7475776169712d61636164656d792d6c6f676f2e737667)
 # Capstone Project 1 - Tuwaiq Academy
 
-## Description: 
+## Description : 
+It is a list of tasks you need to complete, or things that you want to do. 
 
+A to do list app let's you orgnize your tasks more, also it let you attach notes, links and many things, so a good app is the ultimate productivity app.
 
 
 
@@ -60,7 +62,12 @@ Room Data Base
 **Testing** :
 
 
-I started to testing my app by using developer Tools.
+I started to testing my app by using developer Tools such as:
+
+*Debugging the code
+
+
+*Searching
 
 
 
@@ -75,7 +82,7 @@ I tried to use FLOW data instead of Live data for my query functions and I found
 
 My favorite function is HideCompleted fun cause when I was working on it, it was interesting and little bit hard
 
-Also it makes my app looks so much better because when want to see what you've done on your tasks you only need to click on your donebox and then click on hide completed tasks and it will disappear.
+Also it makes my app looks so much better because when we want to see what you've done on our tasks we only need to click on our donebox and then click on hide completed tasks and it will disappear.
 
 
 ## 6- Application :
