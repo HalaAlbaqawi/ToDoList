@@ -3,7 +3,6 @@ package com.example.ToDoList.DataBase
 import androidx.lifecycle.LiveData
 import androidx.room.*
 import com.example.ToDoList.Model.ToDoModel
-import com.example.ToDoList.View.SortOrder
 import kotlinx.coroutines.flow.Flow
 
 

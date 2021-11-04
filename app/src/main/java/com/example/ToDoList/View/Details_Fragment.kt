@@ -17,6 +17,8 @@ import com.example.ToDoList.R
 
 class Details_Fragment : Fragment() {
 
+// To get instance from view model you need to use the activityViewModels to provide you with
+// the object from the ToDoListViewModel
     private val toDoListViewModel: ToDoListViewModel by activityViewModels()
 
 private lateinit var selectedView: ToDoModel
@@ -49,7 +51,7 @@ private lateinit var selectedView: ToDoModel
             toDoListViewModel.deleteItem(selectedView)
             findNavController().popBackStack()
         }
- // putting this function ensure that the users will select a valid date.
+ // putting this function to ensure that the users will select a valid date.
         val datePicker = DatePickerDialog(requireActivity(), R.style.DialogTheme)
         datePicker.setTitle("Deadline")
 
@@ -67,7 +69,7 @@ private lateinit var selectedView: ToDoModel
             datePicker.show()
 
         }
-        //
+        // then i added an update button to edit my tasks easily
         updateButton.setOnClickListener {
         selectedView.title = titleEditText.text.toString()
         selectedView.details = detailsEditText.text.toString()

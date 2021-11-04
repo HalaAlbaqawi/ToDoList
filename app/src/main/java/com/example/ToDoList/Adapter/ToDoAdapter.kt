@@ -74,17 +74,18 @@ class ToDoAdapter (val todolist: List<ToDoModel>, val todolistViewModel: ToDoLis
         }
 
         // indicator for the list
+        // whenever I'm done it will make an indicate
         var currentDate = Date()
         val format= SimpleDateFormat("d/MM/yyyy")
         val dueDate = format.parse(todo.deadline)
-        if (currentDate>dueDate)
+        if (currentDate > dueDate)
         {
             holder.titleTextView.paintFlags = Paint.STRIKE_THRU_TEXT_FLAG
             holder.deadlineTextView.paintFlags = Paint.STRIKE_THRU_TEXT_FLAG
         }
         holder.itemView.setOnClickListener {
 
-            // post value to liveData to send data from the To Do list fragment to details fragment
+       // post value to liveData to send data from the list fragment to details fragment
             todolistViewModel.selectedItemmutableLiveData.postValue(todo)
             it.findNavController().navigate(R.id.action_list_Fragment_to_details_Fragment)
         }

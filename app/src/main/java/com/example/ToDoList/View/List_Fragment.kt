@@ -15,6 +15,8 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 class List_Fragment : Fragment() {
 
     private val toDoList = mutableListOf<ToDoModel>()
+
+    // calling the adapter
     private lateinit var adapter: ToDoAdapter
 
     private val toDoListViewModel: ToDoListViewModel by activityViewModels()
@@ -64,7 +66,7 @@ class List_Fragment : Fragment() {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 return true
             }
-
+           //I added this function to listen on the change when i press on the search box
             override fun onQueryTextChange(newText: String?): Boolean {
                 fetchDate(newText.orEmpty())
                 return true
@@ -72,7 +74,7 @@ class List_Fragment : Fragment() {
 
         })
     }
-// sorting by title , deadline
+//  then I add this fun to sorting my tasks by title or by deadline
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.action_sort_by_name -> {
@@ -94,6 +96,7 @@ class List_Fragment : Fragment() {
 
 
             }
+            // hiding my completed tasks
             R.id.action_hide_completed_tasks -> {
                 item.isChecked = !item.isChecked
 
@@ -108,7 +111,7 @@ class List_Fragment : Fragment() {
                         }
                     })
                 true
-            }
+            } // deleting my completed tasks
             R.id.action_delete_all_completed_tasks -> {
                 toDoListViewModel.deleteCompletedTask()
 
@@ -118,7 +121,7 @@ class List_Fragment : Fragment() {
         }
     }
 
-// To update the data in search bar and it keeps updating the result
+// To update the data in search bar and it keeps updating the results
     fun fetchDate(query: String) {
         toDoListViewModel.getSearchItems(query).observe(viewLifecycleOwner, {
 

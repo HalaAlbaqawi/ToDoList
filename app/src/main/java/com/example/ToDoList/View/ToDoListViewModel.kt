@@ -37,7 +37,7 @@ class ToDoListViewModel : ViewModel(){
         }
 
     }
-    // calling the function from dao
+    // calling the functions from dao
     fun deleteCompletedTask() = viewModelScope.launch { todolistRepository.deleteCompletedTask() }
 
     fun getHideCompletedTasks(isHide: Boolean) = todolistRepository.getItems(isHide)

@@ -35,7 +35,7 @@ class ToDoListRepository (context: Context) {
 
 
     suspend fun deleteCompletedTask() = todoDao.deleteCompletedTask()
- // we use the companion object for ini
+ // we use the companion object for initialize the repo and then getting it to the viewModel.
     companion object {
 
         private var instance: ToDoListRepository? = null
