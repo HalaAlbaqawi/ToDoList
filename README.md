@@ -62,7 +62,10 @@ Room Data Base
 **Testing** :
 
 
-I started to testing my app by using developer Tools.
+I started to testing my app by using developer Tools such as:
+
+*Debugging the code
+*Searching
 
 
 
